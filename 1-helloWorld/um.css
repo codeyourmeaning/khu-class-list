@@ -4,11 +4,11 @@
     padding: 0;
 }
 html{
-    font-size:1.75vw;
+    font-size:1.25vw;
 }
 @media screen and (min-width: 800px){
     html{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 .all-container{
@@ -30,12 +30,15 @@ html{
     padding: 1rem 2rem 1rem 2rem;
 }
 
-.article-container{
-    margin-top: 8px;
-    padding-top: 15px;
-    background-color: #F9C5D5;
-}
+/*.article-container{*/
+/*    margin-top: 8px;*/
+/*    padding-top: 15px;*/
+/*    background-color: #F9C5D5;*/
+/*}*/
+
+
 .total-container{
+    margin-top:3rem;
     background-color: #F2789F;
     margin-bottom: 15px;
 }
