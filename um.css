@@ -11,7 +11,8 @@ html{
 }
 body{
     font-size:1.5rem;
-    width: max-content;
+    width: 100%; 
+    /* 바꾼 이유는 100%는 부모의 크기의 100%를 따라간다는 말이야, body의 부모는 html이고  */
     margin:auto;
 }
 table{
@@ -23,6 +24,11 @@ table{
 @media screen and (min-width: 800px){
     html{
         font-size: 12px;
+    }
+    body{
+        width: max-content;
+        /* 추가한 이유는 크기가 800px 이상이면 max-content 즉 그 안의 내용물의 크기로 크기를 정한다는 소리야 */
+        /* 세미콜론(;)을 쓰는 이유는 한 줄이 끝났음을 알려주는것 */
     }
 }
 
