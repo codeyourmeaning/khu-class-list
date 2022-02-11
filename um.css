@@ -3,8 +3,9 @@
     margin:0;
     padding: 0;
 }
+
 html{
-    font-size:10px;
+    font-size:1.5vw;
     text-align: center;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
@@ -18,13 +19,12 @@ table{
     margin: auto;
 }
 
-/*@media screen and (min-width: 800px){
+
+@media screen and (min-width: 800px){
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
-}*/
-
-
+}
 
 .round-border{
     border: 0.5rem solid #F2789F;
