@@ -11,25 +11,29 @@ html{
 }
 body{
     font-size:1.5rem;
-    width: max-content;
-    margin:auto;
+    width: 100%;
 }
-table{
-    padding: 1rem 0 1rem 0;
-    margin: auto;
-}
-
 
 @media screen and (min-width: 800px){
     html{
         font-size: 12px;
     }
+    body{
+        width: 800px;
+        margin:auto;
+    }
+}
+
+table{
+    padding: 1rem 0 1rem 0;
+    margin: auto;
 }
 
 .round-border{
     border: 0.5rem solid #F2789F;
     border-radius: 0.5rem;
 }
+
 .all-container{
     padding-top: 15px;
 }
@@ -97,4 +101,3 @@ h2{
 #first-sub-container{
     margin-top: 0;
 }
-
