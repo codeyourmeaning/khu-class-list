@@ -3,7 +3,6 @@
     margin:0;
     padding: 0;
 }
-
 html{
     font-size:1.5vw;
     text-align: center;
@@ -17,27 +16,25 @@ table{
     padding: 1rem 0 1rem 0;
     margin: auto;
 }
-
-
-@media screen and (min-width: 800px){
-    html{
-        font-size: 12px;
-    }
-    body{
-        width: 800px;
-        margin:auto;
-    }
-}
-
 .round-border{
     border: 0.5rem solid #F2789F;
     border-radius: 0.5rem;
 }
+@media screen and (min-width: 1000px){
+    html{
+        font-size: 15px;
+    }
+    body{
+        width: 1000px;
+        margin:auto;
+    }
+}
+
 .all-container{
     padding-top: 15px;
 }
-
-.title-container h1{
+/*유민이의 수강 일정*/
+/*.title-container-이부분 지워도 똑같지??*/h1{
     width: max-content;
     margin:auto;
     background-color: #F2789F;
@@ -46,49 +43,39 @@ table{
     font-size: 5rem;
     padding: 1rem 2rem 1rem 2rem;
 }
-
-/*.article-container{*/
-/*    margin-top: 8px;*/
-/*    padding-top: 15px;*/
-/*    background-color: #F9C5D5;*/
-/*}*/
-
+/*학점이수표*/
 h2{
-  color: white;
+    color: white;
 }
-
 .hakjumesupyo-container{
     margin-top:3rem;
     padding: 0 0 2rem 0;
     background-color: #F2789F;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
 }
-
-.jungong-container{
-    flex-direction: column;
-}
-
 .hakjumesu-contents{
     background-color:#FEE3EC;
     display: flex;
     justify-content: center;
 }
-
-.hakjumesu-contents ul{
-    list-style: inside;
-    line-height: 1.5;
-    text-align: left;
-}
-
 .hakjumesu-contents div{
     padding: 0 2rem 0 2rem;
 }
-
+.jungong-container{
+    flex-direction: column;
+}
+.hakjumesu-contents ul{
+    /*list-style-type: circle;*/
+    line-height: 1.5;
+    text-align: left;
+}
 .hakjumesu-contents p,h3{
     line-height: 2;
 }
 
+/*학기별 수강과목*/
 .hakkisugang-container{
+    margin-top: 3rem;
     padding: 0 0 2rem 0;
     background-color: #F2789F;
 }
